@@ -1,1 +1,1 @@
-The purpose of this project is to rebuild the Google homepage.  
+The purpose of this project is to make a non functional copy of the Google homepage using HTML and CSS. 
