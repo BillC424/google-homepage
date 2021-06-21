@@ -4,39 +4,40 @@
 <title>Google</title>
 <link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="main.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
 </head>
 <body>
 <header>    
     <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#store">Store</a></li>
+        <div id="top-left-nav">
+            <li><a href="#about">About</a></li>
+            <li class="top-nav-links"><a href="#store">Store</a></li>
+        </div>
+
+        <div id="top-right-nav">
         <li><a href="#gmail">Gmail</a></li>
-        <li><a href="#images">Images</a></li>
-        <li><span class="material-icons-outlined">
-            apps
-            </span></li>
-            
-      
-        <li><button id="sign-in">Sign in</button></li>
+        <li class="top-nav-links"><a href="#images">Images</a></li>
+        <li class="top-nav-buttons"><img src="apps.png"</li>
+        <li class="top-nav-buttons"><button id="sign-in">Sign in</button></li>
+        </div>
     </ul>
 </header>    
 <img class="google-logo" src="google.png" alt="Google logo">
-
 <input id="search" type="text">
-<br>
-<button class="search-buttons"><a href="#search">Google Search</a></button>
-<button class="search-buttons"><a href="#lucky">I'm Feeling Lucky</a></button>
-
+<div id="center">
+    <button class="search-buttons"><a href="#search">Google Search</a></button>
+    <button class="search-buttons"><a href="#lucky">I'm Feeling Lucky</a></button>
+</div>
 <footer>
     <ul>
         <li><a href="#advertising">Advertising</a></li>
         <li><a href="#business">Business</a></li>
         <li><a href="#howsearchworks">How Search Works</a></li>
-        <li><a href="#privacy">Privacy</a></li>
-        <li><a href="#terms">Terms</a></li>
-        <li><a href="#settings">Settings</a></li>
+
+        <div id="bottom-right-nav">
+            <li><a href="#privacy">Privacy</a></li>
+            <li><a href="#terms">Terms</a></li>
+            <li><a href="#settings">Settings</a></li>
+        </div>
     </ul>
 </footer>
 </body>

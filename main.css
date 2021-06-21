@@ -12,6 +12,7 @@ li {
 }
 body {
     display:grid;
+    overflow-y: hidden;
 }
 
 a:link {
@@ -27,15 +28,27 @@ a:visited {
 
 }
 
-.top-left {
-
+header {
+    margin-top: 20px;
 }
 
-.top-right {
-
+#top-right-nav {
+    margin-left: 1360px;
 }
 
+.top-nav-links {
+    padding-left: 1px;
+}
 
+.top-nav-buttons {
+    padding-left: 1px;
+    margin-bottom: 5px;
+}
+
+#images {
+    padding-left: 1px;
+
+}
 
 #sign-in {
     background-color: #4285f4 ;
@@ -44,6 +57,7 @@ a:visited {
     width: 75px;
     border: none;
     height: 40px;
+    border-radius: 2px;
 }
 
 
@@ -71,15 +85,22 @@ a:visited {
     
     
 }
-
+#center{
+  margin-left: 41%;
+  margin-top: 30px;   
+}
 .search-buttons {
     padding: 8px;
+    margin: 4px;
     border: none;
     border-radius: 4px;
-    width: 100px;
-    
-    
-    
+    width: 135px; 
+    height: 40px;
+    font-size: 88%;
+}
+
+#bottom-right-nav {
+    margin-left: 1400px;
 }
 
 footer {
