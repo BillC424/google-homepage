@@ -25,9 +25,13 @@ a:hover {
 a:visited {
     color: black;
     text-decoration: none;
-
 }
 
+.search-buttons:hover {
+    animation-name: button-hover;
+    animation-duration: ;
+   
+}
 
 header {
     margin-top: 5px;
@@ -75,8 +79,6 @@ header {
 }
 
 
-
-
 #search {
     display: block;
     border-radius: 25px;
@@ -92,6 +94,8 @@ header {
   margin-left: 41%;
   margin-top: 30px;   
 }
+
+
 .search-buttons {
     padding: 8px;
     margin: 4px;
@@ -100,7 +104,10 @@ header {
     width: 135px; 
     height: 40px;
     font-size: 88%;
+    cursor: pointer;
+    
 }
+
 #carbon {
     margin-left: 23%;
 }
