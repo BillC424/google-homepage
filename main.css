@@ -27,19 +27,12 @@ a:visited {
     text-decoration: none;
 }
 
-
-.search-buttons:hover {
-    animation-name: button-hover;
-    animation-duration: ;
-   
-}
-
 header {
     margin-top: 5px;
 }
 
 #top-right-nav {
-    margin-left: 1360px;
+    margin-left: 82%;
 }
 
 .top-nav-links {
@@ -113,7 +106,7 @@ header {
     margin-left: 23%;
 }
 #bottom-right-nav {
-    margin-left: 1450px;
+    margin-left: 86%;
    
 }
 
